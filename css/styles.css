@@ -1,0 +1,340 @@
+
+body {
+  font-family: "Montserrat",sans-serif ;
+}
+
+/* -------------TITLE----------------- */
+#title {
+  background-color: #ff4c68 ;
+  padding: 2% 8% ;
+  overflow: hidden ;
+}
+
+.navbar{
+  margin-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.2rem ;
+  font-weight: 600 ;
+  font-family: "ubuntu";
+}
+
+.nav-item {
+  margin: 0 20px 0 20px ;
+  font-size: 1.1rem ;
+  text-align: right;
+}
+
+.main-heading {
+  font-size: 3.5rem ;
+  line-height: 1.5 ;
+  font-weight: 800 ;
+  color: white ;
+  margin-bottom: 30px ;
+}
+
+.download {
+  margin: 5% 3% 10%;
+  font-weight: 400 ;
+}
+
+.iphone {
+  width: 50% ;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%
+}
+/*-------------FEATURES---------------*/
+#features {
+  padding: 0 10% 1%;
+  position: relative;
+  z-index: 1 ;
+  text-align: center;
+}
+
+.feature-col {
+  padding: 5% 5% 4% ;
+}
+
+.icon {
+  color : #ef8172 ;
+  font-size: 4rem ;
+  margin: 10% auto 8% ;
+}
+
+.icon:hover {
+  color: #ff4c68 ;
+}
+
+.feature-heading {
+  font-weight: 800 ;
+  font-size: 1.5rem ;
+}
+
+.feature-exp{
+  color: #8f8f8f ;
+}
+/*-----------TESTIMONIALS---------------*/
+#testimonials {
+  text-align: center ;
+  background-color: #ef8172 ;
+  color : white ;
+}
+
+.testimonial-msgs {
+  font-weight: 600 ;
+  font-size: 2.3rem ;
+  line-height: 1.5 ;
+  font-style: italic;
+  padding-bottom: 2% ;
+}
+
+.testimonial-img{
+  width: 12% ;
+  border-radius: 100% ;
+  border-style: solid ;
+  border-width: 2px ;
+  border-color: white ;
+  margin: 3% 1.5% 0 ;
+}
+
+.carousel-item{
+  padding: 3% 15% 0;
+  height: 420px ;
+}
+
+.carousel-indicators{
+  margin-bottom: 0 ;
+}
+/*----------------PRESS----------------*/
+#press {
+  padding: 2% 2% 2%;
+  text-align: center ;
+  background-color: #ef8172 ;
+}
+
+.press-imgs{
+  width: 17% ;
+  padding: 0 3% 1.5% ;
+}
+/*----------------PRICING----------------*/
+#pricing {
+  text-align: center;
+  padding: 5% 8% 2%;
+}
+
+.inter-card{
+  padding: 4% 1% ;
+}
+
+.pricing-header{
+  font-weight: 800 ;
+  font-size: 3rem ;
+}
+
+.pricing-exp{
+  font-family: "Montserrat",sans-serif;
+  color: #8f8f8f ;
+}
+
+.plan-names{
+  font-family: "Ubuntu",sans-serif;
+  font-weight: 700 ;
+  margin-bottom: 0 ;
+}
+
+.rate{
+  font-weight: 800 ;
+  font-size: 2.7rem ;
+}
+
+.plan-exp{
+  color: #8f8f8f ;
+  font-weight: 500 ;
+}
+
+/*----------------CTA----------------*/
+#cta {
+  text-align: center;
+  padding: 5% 10% 3% ;
+  background-color: #ff4c68 ;
+}
+
+.cta-heading{
+  font-size: 3rem ;
+  font-weight: 800 ;
+  color: white ;
+  line-height: 1.5 ;
+  padding-bottom: 3%
+}
+
+.download2 {
+  margin: 0 3% ;
+  font-weight: 500 ;
+  font-size: 1.7rem ;
+}
+/*----------------FOOTER----------------*/
+#footer{
+  text-align: center;
+}
+
+.contact-icon{
+  color: black;
+  margin: 3% ;
+  font-size: 2.2rem ;
+}
+.contact-icon:hover{
+  color: #ff4c68 ;
+}
+
+.copyright{
+  color: #8f8f8f ;
+  font-weight: 300 ;
+  margin-bottom: 0.5% ;
+}
+/*--------------------------------------*/
+
+
+@media (max-width: 990px) {
+
+/* -------------TITLE----------------- */
+
+#title {
+  text-align: center;
+  padding: 3% 3% 8% ;
+}
+
+.navbar{
+  margin-bottom: 2.5rem;
+}
+
+.navbar-brand {
+  font-size: 3rem ;
+}
+
+.nav-item {
+  margin: 0 2% 0 2% ;
+  font-size: 1.6rem ;
+}
+
+  .main-heading {
+    font-size: 4.1rem ;
+    font-weight: 700 ;
+  }
+
+  .download {
+    margin: 3% 3% 10% ;
+    font-size: 2.8rem ;
+  }
+
+  .iphone {
+    width: 58% ;
+    transform: rotate(0);
+    position: static;
+  }
+
+  /* .col-lg-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  } */
+    /* --------------------FEATURES--------------------------------------------- */
+  #features {
+    padding: 1% 5%;
+  }
+
+  .feature-col {
+    padding: 4% 0 2% ;
+  }
+
+  .icon {
+    font-size: 7.5rem ;
+    margin: 5% auto 4% ;
+  }
+
+  .feature-heading {
+    font-size: 3rem ;
+  }
+
+  .feature-exp{
+    font-size: 1.5rem ;
+  }
+  /* ----------------TESTIMONIALS------------- */
+
+  .testimonial-msgs {
+    font-weight: 500 ;
+    font-size: 2.6rem ;
+    padding-bottom: 1% ;
+  }
+
+  .testimonial-img{
+    width: 23% ;
+    margin: 3% ;
+  }
+
+  .carousel-item{
+    padding: 5% 12% ;
+    height: 500px ;
+  }
+
+  /* ---------------PRESS---------------- */
+  .press-imgs{
+    width: 24%;
+    padding: 0 auto 10% ;
+  }
+  /* ------------PRICING-------------------- */
+
+
+  .pricing-header{
+    font-weight: 800 ;
+    font-size: 4rem ;
+  }
+
+  .pricing-exp{
+    font-size: 1.5rem ;
+  }
+
+  .plan-names{
+    font-size: 2.5rem ;
+  }
+
+  .rate{
+    font-size: 3.5rem ;
+  }
+
+  .plan-exp{
+    font-size: 1.4rem ;
+  }
+
+  .card{
+    width: 75% ;
+    margin: 0 auto ;
+  }
+
+  .btn-sign-up{
+    font-size: 2.2rem ;
+  }
+
+  /* ---------CTA--------- */
+
+  .cta-heading{
+    font-size: 3.5rem ;
+    font-weight: 700 ;
+    padding-bottom: 4% ;
+  }
+
+  .download2 {
+    font-size: 2.4rem ;
+  }
+
+    /* -------FOOTER------- */
+
+    .contact-icon{
+      margin: 5% 7% 3% ;
+      font-size: 2.8rem ;
+    }
+    .copyright {
+      font-size: 1.3rem ;
+    }
+}
